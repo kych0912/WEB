@@ -4,6 +4,7 @@
     padding: 10px;
     text-align: center;
     margin-bottom: 0px;
+    padding-top:0px;
 }
 .flex-list{
     display: flex;
@@ -25,7 +26,11 @@
     color:#737881;
 }
 .logo_Image{
+    position:relative;    /*relative는 원래 위치로부터 상대적인 위치,*/
+    top:10px;             /*absolute는 가까운 부모 박스를 기준으로 상대적 위치(왼쪽 최상단)*/
+    right:5px;
     width:60px;
+    margin-top:10px;
 }
 
 .top_Image{
@@ -34,7 +39,7 @@
 }
 
 .items-center {
-    margin-top : 16px;
+    margin-top : 10x;
     align-items: center;
 }
 .flex-1 {
@@ -66,4 +71,9 @@ nav{
 }
 .right-0px{
     padding-right:0px;
+}
+.register{
+    color:black;
+    background-color: white;
+    border-color:white;
 }
