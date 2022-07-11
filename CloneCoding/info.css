@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+.myname{
+    display:flex;
+    justify-content: right;
+    font-family : 'Edu SA Beginner', cursive;
+}
+.info{
+    display:flex;
+    justify-content: right;
+}
+.title{
+    box-shadow : 0 3px 5px -3.5px;
+    margin-top:10px;
+}
+.contact{
+    display:flex;
+    justify-content: right;
+}
+.phone{
+    margin-left : 10px;
+}
+.email{
+    margin-left:10px;
+}
+.flex{
+    display:flex;
+}
+.contact-between{
+    padding-right:10px;
+}
+i{
+    margin-top:5px;
+}
+.navibar{
+    display:flex;
+    background-color: black;
+}
+.navibar-content{
+    justify-content: left;
+}
+.navibar-li{
+    margin-top:10px;
+    color : white;
+    transition: all 0.5s;
+    list-style:none;
+    padding-right:50px;
+}
+.navibar-li:hover{
+    color : gray;
+}
+.skill{
+
+}
+.project{
+
+}
+.background{
+    position:fixed;
+}
+.red{
+    flex: 1;
+    background-color:red ;
+}
+.orange{
+    flex: 1;
+    background-color: orange;
+}
+.yellow{
+    flex: 1;
+    background-color: yellow;
+}
+.green{
+    flex:1;
+    background-color: green;
+}
+.blue{
+    flex:1;
+    background-color: blue;
+}
+.indigo{
+    flex:1;
+    background-color: indigo;
+}
+.violet{
+    flex:1;
+    background-color: violet;
+}
