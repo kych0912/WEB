@@ -11,7 +11,8 @@
     </head>
 
     <body>
-      <nav>
+
+      <!-- <nav>
         <div class="flex justify-between top">
           <div class = "flex justify-start">
             <div class = "items-center">
@@ -34,8 +35,17 @@
             </div>
           </div>
         </div> 
-      </nav>
+      </nav> -->
+      <form id="login-form" class = "hidden"> 
+        <input required maxlength = "15" type="text" placeholder="What is your name?">
+        <!--<button>Log In</button>-->
+        <input type ="submit" value ="Log In">
+      </form>
+      
+      <h1 class = "hidden"></h1>
+      <h2 id = "clock"></h2>
       <script src = "app.js"></script>
+      <script src = "clock.js"></script>
     </body>
 </html>
  
